@@ -1,0 +1,106 @@
+.pg-header {
+    position : fixed ; left : 20% ; top : 0 ;
+    font-size: 30px;
+    width : 80%;
+    height : 25%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin ;
+    padding-left : 5%;
+}
+
+.left-bar {
+    position : fixed ; top : 0; left : 0;
+    width : 20% ;
+    height: 100%;
+    background-color: black;
+}
+
+.img-pf {
+    position : relative ; top : 30px; left : 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.name {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color : white;
+    border: white;
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    border-width : thin;
+    border-radius: 60px;
+    padding: 0;
+    position: relative ; top : 15%; left: 50px;
+}
+
+.nav-li {
+    position: relative ; top: 25%; left:-20px;
+    list-style-type: none;
+    text-align : center;
+    font-size : 20px;
+    line-height: 200%;
+}
+
+a:link {text-decoration: none; color: white}
+
+.content {
+    position : fixed ; left : 20% ; top : 25% ;
+    width : 80%;
+    height: 75%;
+    padding : 5%;
+}
+
+.tb {
+    width : 300px;
+    height : 300px;
+    border-style : solid;
+    border-color : #848484;
+    border-width : 1px;
+    border-radius : 30px;
+    padding : 1%;
+    position: relative;
+    float : left;
+    margin : 20px;
+}
+.tb::before{
+    content : "";
+    background : url(64130288.jpg);
+    background-size : cover;
+    opacity: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius : 30px;
+}
+
+.tb h2 {
+    font-size : 40px;
+    position: relative;
+}
+
+.tb p {
+    font-size : 20px;
+    position : relative;
+}
+
+.tb button {
+    width : 100px;
+    height : 30px;
+    font-size : 10px;
+    text-align : center;
+    border-radius : 30px;
+    border-style : solid;
+    border-color : #848484;
+    border-width : thin;
+    background-color : white;
+    position : relative; bottom : -30px ; right : -200px;
+}
